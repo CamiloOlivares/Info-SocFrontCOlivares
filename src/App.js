@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { Profile } from "./pages/profile";
 import { Asistencia } from "./pages/asistencia";
+import { SelectCourse } from "./pages/selectCourse";
 
 function App() {
   return (
@@ -10,7 +11,9 @@ function App() {
       <div className="Perfil">
         <Profile/>
       </div>
-
+      <div>
+        <SelectCourse/>
+      </div>
       <div>
         <Asistencia/>
       </div>
