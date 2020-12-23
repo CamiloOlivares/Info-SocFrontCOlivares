@@ -1,0 +1,15 @@
+
+.boxed {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-right: 50px;
+
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -.75rem;
+    margin-left: -.75rem;
+  }
